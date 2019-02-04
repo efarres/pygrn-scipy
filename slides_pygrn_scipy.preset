@@ -1,0 +1,44 @@
+Scientific Python #48
+Subtitle of document
+19:00 7 Feb 2019
+Tags: SciPy, JupyterLab, Scientific Computing, Instrumentació, Anàlisi de dades, documentació
+
+Esteve Farrés
+R&D Enginner, INSYLO Technologies
+esteve.farres@gmail.com
+https://es.linkedin.com/in/esteve-farres-5660828
+@estfarr
+
+* SciPy.
+
+SciPy.
+- NumPy.
+Tot es tracta de multiplicar i sumar, com tractar vectors i matrius.
+- SciPy Library.
+No cal reinventar la roda, com implementar els coneixements.
+- Matplotlib.
+Un cop fet, representem-ho, fem més que gràfiques
+- IPython.
+No sabem encara on anem, interactuem.
+- Pandas (veure xerrada [12/07/2017 - #1 Scrapy + Pandas (https://github.com/pygrn/xerrades/blob/master/xerrades/2017/20170712)).
+Donem estructura a les dades.
+
+JupyterLab Interface web per Project Jupyter.
+Deixem-ho tot documentat, millor, documentem mentre anem fent.
+
+
+** SciPy
+
+
+** MAC
+
+
+* Multiplicar i sumar
+
+
+Filtres
+
+
+
+*  
+
