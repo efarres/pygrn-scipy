@@ -1,5 +1,5 @@
 Scientific Python #48
-Subtitle of document
+PyGRN
 19:00 7 Feb 2019
 Tags: SciPy, JupyterLab, Scientific Computing, Instrumentació, Anàlisi de dades, documentació
 
@@ -30,19 +30,45 @@ JupyterLab (Deixem-ho tot documentat, millor, documentem mentre anem fent).
 * SciPy
 
 
-* MAC
-
-Filtres
+* Because MAC is relevant
 
 
-Matrius
+* Polynomial
 
-** Multiplicar i sumar
+.image images/polynomial.png 100 _
+.image images/latex_polynomial.png 40 _
+.image images/polynomial_graph.png 200 _
+
+* Digital Filters
+
+.image images/FIR_01.png 80 _
+.image images/FIR.png 80 _
+.image images/FIR_02.png 25 _
+.image images/400px-Biquad_filter_DF-I.png 150 _
+
+.link https://en.wikipedia.org/wiki/Digital_biquad_filter#Direct_form_1 Wikipedia-Direct_form_1
+
+* Convolution
+
+.image images/convolution.png 50 _
+.image images/convolution_01.png 200 _
+.image images/convolution_02.png 200 _
+
+* Discrete Integral
+
+.image images/discrete_integral.png 80 _
+.image images/discrete_integral_01.png 200 _
+
+.link http://moodle.autolab.uni-pannon.hu/Mecha_tananyag/mechatronikai_modellezes_angol/ch07.html 
+
+* Matrius
+
+* Multiplicar i sumar
 MAC
 
 Test
 
-** Matrius
+* Matrius
 
 Arrays
 Test
