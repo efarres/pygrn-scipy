@@ -4,12 +4,12 @@ PyGRN
 Tags: SciPy, JupyterLab, Scientific Computing, Instrumentació, Anàlisi de dades, documentació
 
 Esteve Farrés
-R&D Enginner, INSYLO Technologies
+R&D Engineer, INSYLO Technologies
 esteve.farres@gmail.com
 https://es.linkedin.com/in/esteve-farres-5660828
 @estfarr
 
-* SciPy.
+* Scientific Python.
 
 - NumPy. (Tot es tracta de multiplicar i sumar, com tractar vectors i matrius).
 
@@ -19,7 +19,7 @@ https://es.linkedin.com/in/esteve-farres-5660828
 
 - IPython. (No sabem encara on anem, interactuem).
 
-- Pandas. (*Donem estructura a les dades*). (Xerrada [[https://github.com/pygrn/xerrades/blob/master/xerrades/2017/20170712][12/07/2017 - #1 Scrapy + Pandas]] )
+- Pandas. (Donem estructura a les dades). (Xerrada [[https://github.com/pygrn/xerrades/blob/master/xerrades/2017/20170712][12/07/2017 - #1 Scrapy + Pandas]] )
 
 * JupyterLab
 
@@ -27,19 +27,19 @@ JupyterLab (Deixem-ho tot documentat, millor, documentem mentre anem fent).
 
 
 
-* SciPy
+* NumPy
 
 
-* Because MAC is relevant
+* Because MAC is relevant?
 
 
-* Polynomial
+* Polynomials.
 
 .image images/polynomial.png 100 _
 .image images/latex_polynomial.png 40 _
 .image images/polynomial_graph.png 200 _
 
-* Digital Filters
+* Digital Filters.
 
 .image images/FIR_01.png 80 _
 .image images/FIR.png 80 _
@@ -48,33 +48,110 @@ JupyterLab (Deixem-ho tot documentat, millor, documentem mentre anem fent).
 
 .link https://en.wikipedia.org/wiki/Digital_biquad_filter#Direct_form_1 Wikipedia-Direct_form_1
 
-* Convolution
+* Convolution.
 
-.image images/convolution.png 50 _
+.image images/convolution.png 60 _
 .image images/convolution_01.png 200 _
 .image images/convolution_02.png 200 _
 
-* Discrete Integral
+* Discrete Integral.
 
 .image images/discrete_integral.png 80 _
 .image images/discrete_integral_01.png 200 _
 
-.link http://moodle.autolab.uni-pannon.hu/Mecha_tananyag/mechatronikai_modellezes_angol/ch07.html 
+.link http://moodle.autolab.uni-pannon.hu/Mecha_tananyag/mechatronikai_modellezes_angol/ch07.html Chapter 7. Numerical Methods for Initial Value Problems 
 
 * Matrius
 
-* Multiplicar i sumar
-MAC
+Rotation
 
-Test
+.image images/rotation.png 100 _
 
-* Matrius
+* MAC
+Digital Signal Processing requires Multiply-Accumulate (MAC).
 
-Arrays
-Test
-
-Others
+.image images/Screenshot_20190206_200017.png
 
 
-*
+* Managing data access.
+
+* Memory and SIMD (Single Instruction Multiple Data).
+.image images/Screenshot_20190206_185558.png
+.image images/Screenshot_20190206_185622.png
+
+* Data Transpose.
+
+Order data before process it. 
+.image images/Screenshot_20190206_185651.png
+
+Padding memory and take profit.
+
+- RGBA Space.
+
+.image images/HexRGBAbits.png 80 _
+
+.link https://commons.wikimedia.org/w/index.php?curid=22866719 By Jasonm23 - Own work, CC BY-SA 3.0
+
+
+* Low Level Dependencies. 
+
+Computations on arrays are written in large part in C, but also Fortran 77.
+
+[[http://cython.org/][Cython]] "Cython is a compiler which compiles Python-like code files to C code".
+
+Linear Algebra Libraries
+
+- [[http://math-atlas.sourceforge.net/][ATLAS]] (Automatically Tuned Linear Algebra Software) (C and Fortran)
+- [[http://www.netlib.org/blas/][BLAS]] (Basic Linear Algebra Subprograms)
+- [[http://www.netlib.org/lapack/][LAPACK]] (Linear Algebra PACKage) (Fortran)
+- [[https://software.intel.com/en-us/mkl][Intel MKL]] (Intel Math Kernel Library)
+
+
+* Learn by examples.
+
+- SciPy Library. (No cal reinventar la roda, com implementar els coneixements).
+
+- Matplotlib. (Un cop fet, representem-ho, fem més que gràfiques).
+
+- IPython. (No sabem encara on anem, interactuem).
+
+- JupyterLab (Deixem-ho tot documentat, millor, documentem mentre anem fent).
+
+
+* Examples.
+- NumPy / Polynomial 
+
+- World Population
+
+- Trading
+
+.link http://localhost:8888/lab
+
+* Hardware and software working together.
+
+* GPU vs FPGA Architecture
+
+NVIDIA Numba CUDA Programming model using pure python syntax.
+.image images/numba_blue_icon_rgb-300x300.png 80 _
+
+GPUs are great, but the future will be FPGA co-processing.
+.image images/Screenshot_20190206_200424.png 250 _
+
+
+
+* FPGA DSP Blocks.
+
+DSP Digital Signal Processing 
+
+.image images/st3-dsp.gif
+
+
+* Hardware is coming.
+
+.image images/Face_detect_block_diagram.png
+
+Python approach => [[http://www.myhdl.org/][MyHDL]], "Python generators to model hardware concurrency". 
+
+
+
 
