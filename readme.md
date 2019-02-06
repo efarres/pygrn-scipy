@@ -23,4 +23,9 @@ No sabem encara on anem, **interactuem**.
 - [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) Interface web per [Project Jupyter](https://jupyter.org/).
 Deixem-ho tot documentat, **millor, documentem mentre anem fent**.
 
+
+Presentation online
+"Scientific Python - SciPy]" slides are stored in the [preset format] (https://godoc.org/golang.org/x/tools/present), you can see the presentation online at [Scientific Python - SciPy] (https://talks.godoc.org/github.com/efarres/pygrn-scipy/slides_pygrn_scipy.slide)
+
+
 TAGS: `SciPy, JupyterLab, Scientific Computing, Instrumentació, Anàlisi de dades, documentació`
